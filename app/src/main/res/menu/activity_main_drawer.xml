@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/globe_outline"
+            android:title="Language" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/wifi_outline"
+            android:title="Enable WI-FI Direct" />
+        <item
+            android:id="@+id/Seetings"
+            android:icon="@drawable/settings_outline"
+            android:title="Settings" />
+        <item
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:icon="@drawable/moon_outline"
+            android:title="Night mode" />
+        <item
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:icon="@drawable/lock_closed_outline"
+            android:title="Xender Lock" />
+        <item
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:icon="@drawable/help_outline"
+            android:title="Help &amp; Feedback" />
+        <item
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:icon="@drawable/star_outline"
+            android:title="Ratings" />
+        <item
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:icon="@drawable/information_circle_outline"
+            android:title="About" />
+    </group>
+</menu>

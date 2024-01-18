@@ -1,0 +1,968 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.music">
+
+
+    <SearchView
+        android:id="@+id/searchView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="#"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/searchView2"
+            app:layout_constraintVertical_bias="0.093" />
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="330dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.26" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:layout_editor_absoluteX="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <ImageView
+                    android:id="@+id/imageViejkfdsjhdsfw6"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="339dp"
+                    android:layout_marginBottom="0dp"
+
+                    app:srcCompat="@drawable/musicicon" />
+
+                <TextView
+                    android:id="@+id/textViljkhjkhfdsew8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="266dp"
+                    android:layout_marginRight="-200dp"
+                    android:layout_marginBottom="20dp"
+                    android:text="#asterr (2)" />
+
+                <TextView
+                    android:id="@+id/textVioierupoiewrew9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="274dp"
+                    android:layout_marginBottom="0dp"
+                    android:text="3.78 MB" />
+
+                <RadioButton
+                    android:id="@+id/radioButtijgfjopgjfffffffffffffffffffffffffffffffffdon3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="-7dp"
+                    android:layout_marginBottom="0dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <ImageView
+                    android:id="@+id/imageViewdfsijlidfsdsf6"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="339dp"
+                    android:layout_marginBottom="0dp"
+
+                    app:srcCompat="@drawable/musicicon" />
+
+                <TextView
+                    android:id="@+id/texterwiouewrView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="266dp"
+                    android:layout_marginRight="-200dp"
+                    android:layout_marginBottom="20dp"
+                    android:text="#asterr (2)" />
+
+                <TextView
+                    android:id="@+id/texkljkfeljsdftView9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="274dp"
+                    android:layout_marginBottom="0dp"
+                    android:text="3.78 MB" />
+
+                <RadioButton
+                    android:id="@+id/radioBufkokjefstton3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="-7dp"
+                    android:layout_marginBottom="0dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <ImageView
+                    android:id="@+id/imageVklnndsfiew6"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="339dp"
+                    android:layout_marginBottom="0dp"
+
+                    app:srcCompat="@drawable/musicicon" />
+
+                <TextView
+                    android:id="@+id/text43534544444444444444444444444444444444View8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="266dp"
+                    android:layout_marginRight="-200dp"
+                    android:layout_marginBottom="20dp"
+                    android:text="#asterr (2)" />
+
+                <TextView
+                    android:id="@+id/text09850988450988View9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="274dp"
+                    android:layout_marginBottom="0dp"
+                    android:text="3.78 MB" />
+
+                <RadioButton
+                    android:id="@+id/radioBuiu78934289734tton3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="-7dp"
+                    android:layout_marginBottom="0dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <ImageView
+                    android:id="@+id/image834897324View6"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="339dp"
+                    android:layout_marginBottom="0dp"
+                    app:srcCompat="@drawable/musicicon" />
+
+                <TextView
+                    android:id="@+id/textViu21987398239ew8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="266dp"
+                    android:layout_marginRight="-200dp"
+                    android:layout_marginBottom="20dp"
+                    android:text="#asterr (2)" />
+
+                <TextView
+                    android:id="@+id/textVi90098098435ew9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="274dp"
+                    android:layout_marginBottom="0dp"
+                    android:text="3.78 MB" />
+
+                <RadioButton
+                    android:id="@+id/radioB23478681287621321utton3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="-7dp"
+                    android:layout_marginBottom="0dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <ImageView
+                    android:id="@+id/imageVi9876898934255ew6"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="339dp"
+                    android:layout_marginBottom="0dp"
+                    app:srcCompat="@drawable/musicicon" />
+
+                <TextView
+                    android:id="@+id/text8945987435View8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="266dp"
+                    android:layout_marginRight="-200dp"
+                    android:layout_marginBottom="20dp"
+                    android:text="#asterr (2)" />
+
+                <TextView
+                    android:id="@+id/textVi6599569856ew9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="274dp"
+                    android:layout_marginBottom="0dp"
+                    android:text="3.78 MB" />
+
+                <RadioButton
+                    android:id="@+id/radioButt878945435on3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="-7dp"
+                    android:layout_marginBottom="0dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <ImageView
+                    android:id="@+id/imageVie80984089545w6"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="339dp"
+                    android:layout_marginBottom="0dp"
+                    app:srcCompat="@drawable/musicicon" />
+
+                <TextView
+                    android:id="@+id/texhjhkdhsfjkhe3tView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="266dp"
+                    android:layout_marginRight="-200dp"
+                    android:layout_marginBottom="20dp"
+                    android:text="#asterr (2)" />
+
+                <TextView
+                    android:id="@+id/textVikjhkfsdew9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="274dp"
+                    android:layout_marginBottom="0dp"
+                    android:text="3.78 MB" />
+
+                <RadioButton
+                    android:id="@+id/radioButt987532on3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="-7dp"
+                    android:layout_marginBottom="0dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <ImageView
+                    android:id="@+id/imageVie0899324324w6"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="339dp"
+                    android:layout_marginBottom="0dp"
+                    app:srcCompat="@drawable/musicicon" />
+
+                <TextView
+                    android:id="@+id/textVfghjkhkjhiew8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="266dp"
+                    android:layout_marginRight="-200dp"
+                    android:layout_marginBottom="20dp"
+                    android:text="#asterr (2)" />
+
+                <TextView
+                    android:id="@+id/text8798327498324View9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="274dp"
+                    android:layout_marginBottom="0dp"
+                    android:text="3.78 MB" />
+
+                <RadioButton
+                    android:id="@+id/radioButtdfsjdfsjon3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="-7dp"
+                    android:layout_marginBottom="0dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <ImageView
+                    android:id="@+id/imageViiioutr4345iew6"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="339dp"
+                    android:layout_marginBottom="0dp"
+                    app:srcCompat="@drawable/musicicon" />
+
+                <TextView
+                    android:id="@+id/textpoiuregfh87589743View8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="266dp"
+                    android:layout_marginRight="-200dp"
+                    android:layout_marginBottom="20dp"
+                    android:text="#asterr (2)" />
+
+                <TextView
+                    android:id="@+id/text9805894589734View9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="274dp"
+                    android:layout_marginBottom="0dp"
+                    android:text="3.78 MB" />
+
+                <RadioButton
+                    android:id="@+id/radioButto9034098324n3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="-7dp"
+                    android:layout_marginBottom="0dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <ImageView
+                    android:id="@+id/imageView458798793246"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="339dp"
+                    android:layout_marginBottom="0dp"
+                    app:srcCompat="@drawable/musicicon" />
+
+                <TextView
+                    android:id="@+id/textVie9080839248093w8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="266dp"
+                    android:layout_marginRight="-200dp"
+                    android:layout_marginBottom="20dp"
+                    android:text="#asterr (2)" />
+
+                <TextView
+                    android:id="@+id/textVie84367132w9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="274dp"
+                    android:layout_marginBottom="0dp"
+                    android:text="3.78 MB" />
+
+                <RadioButton
+                    android:id="@+id/radioBut09309248098342ton3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="-7dp"
+                    android:layout_marginBottom="0dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp">
+
+                    <ImageView
+                        android:id="@+id/imageVie30948320984w6"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginEnd="339dp"
+                        android:layout_marginBottom="0dp"
+                        app:srcCompat="@drawable/musicicon" />
+
+                    <TextView
+                        android:id="@+id/text2340958709485View8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginEnd="266dp"
+                        android:layout_marginRight="-200dp"
+                        android:layout_marginBottom="20dp"
+                        android:text="#asterr (2)" />
+
+                    <TextView
+                        android:id="@+id/textVi783846324324ew9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginEnd="274dp"
+                        android:layout_marginBottom="0dp"
+                        android:text="3.78 MB" />
+
+                    <RadioButton
+                        android:id="@+id/ra43ii3yu2489324dioButton3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginEnd="-7dp"
+                        android:layout_marginBottom="0dp" />
+                </RelativeLayout>
+
+                <ImageView
+                    android:id="@+id/imageV398247982347iew6"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="339dp"
+                    android:layout_marginBottom="0dp"
+                    app:srcCompat="@drawable/musicicon" />
+
+                <TextView
+                    android:id="@+id/tex8983472987324itView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="266dp"
+                    android:layout_marginRight="-200dp"
+                    android:layout_marginBottom="20dp"
+                    android:text="#asterr (2)" />
+
+                <TextView
+                    android:id="@+id/textVi883947589754jew9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="274dp"
+                    android:layout_marginBottom="0dp"
+                    android:text="3.78 MB" />
+
+                <RadioButton
+                    android:id="@+id/radioB834789342732jutton3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="-7dp"
+                    android:layout_marginBottom="0dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <ImageView
+                    android:id="@+id/imag094385093485njfdeView6"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="339dp"
+                    android:layout_marginBottom="0dp"
+                    app:srcCompat="@drawable/musicicon" />
+
+                <TextView
+                    android:id="@+id/textVi4398745985jdfsew8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="266dp"
+                    android:layout_marginRight="-200dp"
+                    android:layout_marginBottom="20dp"
+                    android:text="#asterr (2)" />
+
+                <TextView
+                    android:id="@+id/textV098430297032598523fiew9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="274dp"
+                    android:layout_marginBottom="0dp"
+                    android:text="3.78 MB" />
+
+                <RadioButton
+                    android:id="@+id/radioB392048093248093248905utton3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="-7dp"
+                    android:layout_marginBottom="0dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <ImageView
+                    android:id="@+id/image21340974109309903284View6"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="339dp"
+                    android:layout_marginBottom="0dp"
+                    app:srcCompat="@drawable/musicicon" />
+
+                <TextView
+                    android:id="@+id/text09u540984309utView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="266dp"
+                    android:layout_marginRight="-200dp"
+                    android:layout_marginBottom="20dp"
+                    android:text="#asterr (2)" />
+
+                <TextView
+                    android:id="@+id/text98347543rji43rView9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="274dp"
+                    android:layout_marginBottom="0dp"
+                    android:text="3.78 MB" />
+
+                <RadioButton
+                    android:id="@+id/radioButton3458743858934757"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="-7dp"
+                    android:layout_marginBottom="0dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <ImageView
+                    android:id="@+id/imageVie3r90832490efkwokjklw6"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="339dp"
+                    android:layout_marginBottom="0dp"
+                    app:srcCompat="@drawable/musicicon" />
+
+                <TextView
+                    android:id="@+id/textV8930480932098908890089980jkiew8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="266dp"
+                    android:layout_marginRight="-200dp"
+                    android:layout_marginBottom="20dp"
+                    android:text="#asterr (2)" />
+
+                <TextView
+                    android:id="@+id/textV90580945kmkfview9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="274dp"
+                    android:layout_marginBottom="0dp"
+                    android:text="3.78 MB" />
+
+                <RadioButton
+                    android:id="@+id/radioButt09849058435ikjrekfon3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="-7dp"
+                    android:layout_marginBottom="0dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <ImageView
+                    android:id="@+id/image809508348dfklsjfView6"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="339dp"
+                    android:layout_marginBottom="0dp"
+                    app:srcCompat="@drawable/musicicon" />
+
+                <TextView
+                    android:id="@+id/textVi985098584lkdfjklew8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="266dp"
+                    android:layout_marginRight="-200dp"
+                    android:layout_marginBottom="20dp"
+                    android:text="#asterr (2)" />
+
+                <TextView
+                    android:id="@+id/textVie987459884oiuewrw9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="274dp"
+                    android:layout_marginBottom="0dp"
+                    android:text="3.78 MB" />
+
+                <RadioButton
+                    android:id="@+id/radioButto09887r059749853209dfn3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="-7dp"
+                    android:layout_marginBottom="0dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <ImageView
+                    android:id="@+id/imageV90853905iew6"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="339dp"
+                    android:layout_marginBottom="0dp"
+                    app:srcCompat="@drawable/musicicon" />
+
+                <TextView
+                    android:id="@+id/text098435098435View8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="266dp"
+                    android:layout_marginRight="-200dp"
+                    android:layout_marginBottom="20dp"
+                    android:text="#asterr (2)" />
+
+                <TextView
+                    android:id="@+id/text0949890438View9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="274dp"
+                    android:layout_marginBottom="0dp"
+                    android:text="3.78 MB" />
+
+                <RadioButton
+                    android:id="@+id/radioB98345902743utton3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="-7dp"
+                    android:layout_marginBottom="0dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <ImageView
+                    android:id="@+id/imageVi89498709824ew6"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="339dp"
+                    android:layout_marginBottom="0dp"
+                    app:srcCompat="@drawable/musicicon" />
+
+                <TextView
+                    android:id="@+id/textV94598324iew8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="266dp"
+                    android:layout_marginRight="-200dp"
+                    android:layout_marginBottom="20dp"
+                    android:text="#asterr (2)" />
+
+                <TextView
+                    android:id="@+id/textVi90984025092439854352ew9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="274dp"
+                    android:layout_marginBottom="0dp"
+                    android:text="3.78 MB" />
+
+                <RadioButton
+                    android:id="@+id/radioButofvjoifg8445ton3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="-7dp"
+                    android:layout_marginBottom="0dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <ImageView
+                    android:id="@+id/imageVie098485094kdsfw6"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="339dp"
+                    android:layout_marginBottom="0dp"
+                    app:srcCompat="@drawable/musicicon" />
+
+                <TextView
+                    android:id="@+id/textVie99385904tiorew8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="266dp"
+                    android:layout_marginRight="-200dp"
+                    android:layout_marginBottom="20dp"
+                    android:text="#asterr (2)" />
+
+                <TextView
+                    android:id="@+id/textVi89459805987dsfkew9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="274dp"
+                    android:layout_marginBottom="0dp"
+                    android:text="3.78 MB" />
+
+                <RadioButton
+                    android:id="@+id/radioB35254987fdsutton3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="-7dp"
+                    android:layout_marginBottom="0dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <ImageView
+                    android:id="@+id/image384739859dfaidfahsView6"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="339dp"
+                    android:layout_marginBottom="0dp"
+                    app:srcCompat="@drawable/musicicon" />
+
+                <TextView
+                    android:id="@+id/textView845978453907rtgf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="266dp"
+                    android:layout_marginRight="-200dp"
+                    android:layout_marginBottom="20dp"
+                    android:text="#asterr (2)" />
+
+                <TextView
+                    android:id="@+id/textVrydyydtudtiew9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="274dp"
+                    android:layout_marginBottom="0dp"
+                    android:text="3.78 MB" />
+
+                <RadioButton
+                    android:id="@+id/radioButtddfdgllldon3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="-7dp"
+                    android:layout_marginBottom="0dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="339dp"
+                    android:layout_marginBottom="0dp"
+                    app:srcCompat="@drawable/musicicon" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="266dp"
+                    android:layout_marginRight="-200dp"
+                    android:layout_marginBottom="20dp"
+                    android:text="#asterr (2)" />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="274dp"
+                    android:layout_marginBottom="0dp"
+                    android:text="3.78 MB" />
+
+                <RadioButton
+                    android:id="@+id/radioButton3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="-7dp"
+                    android:layout_marginBottom="0dp" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
